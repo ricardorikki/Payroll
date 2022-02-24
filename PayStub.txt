@@ -1,0 +1,68 @@
+**********PAY STUB*************
+First Name: Ricardo
+Last Name: Knight
+Social Security Number: 123
+Part Number: PPL
+Part Description: Car Paint
+Quantity: 6
+Price Pattern: 6000.0
+Hours Worked: 8.0
+Total Wage: 6400.0
+
+**********PAY STUB*************
+First Name: Kemar
+Last Name: Jill
+Social Security Number: 333
+Part Number: 456
+Part Description: partsd
+Quantity: 5
+Price Pattern: 400.0
+Hours Worked: 5.0
+Total Wage: 0.0
+
+**********PAY STUB*************
+First Name: Franz
+Last Name: Harry
+Social Security Number: 222s
+Part Number: 343
+Part Description: Paint Gun
+Quantity: 10
+Price Pattern: 200.0
+Hours Worked: 9.0
+Total Wage: 0.0
+
+**********PAY STUB*************
+Date: 2022-02-24
+First Name: Trevor
+Last Name: Knight
+Social Security Number: 222333
+Part Number: 90883
+Part Description: Control Arm
+Quantity: 10
+Price Pattern: 3000.0
+Hours Worked: 11.0
+Total Wage: 0.0
+
+**********PAY STUB*************
+Date: 2022-02-24
+First Name: Tevin
+Last Name: Williams
+Social Security Number: 3392
+Part Number: 443
+Part Description: something
+Quantity: 4
+Price Pattern: 300.0
+Hours Worked: 4.0
+Total Wage: 0.0
+
+**********PAY STUB*************
+Date: 2022-02-24
+First Name: Basil 
+Last Name: Bailey
+Social Security Number: 3827ASH'
+Part Number: 322HG
+Part Description: SHOCKS
+Quantity: 4
+Price Pattern: 2000.0
+Hours Worked: 10.0
+Total Wage: 8000.0
