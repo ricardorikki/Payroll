@@ -162,3 +162,96 @@ Part Description: Something Special
 Quantity: 5
 Price Pattern: 100.0
 Payment Total: 500.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Full Time
+First Name: Ricardo
+Last Name: Knight
+Social Security Number: 122322
+Hours Worked: 8.0
+Total Wage: 6400.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Contract
+First Name: Doron
+Last Name: Williams
+Social Security Number: 111222
+Part Number: 234
+Part Description: Car paint
+Quantity: 3
+Price Pattern: 2000.0
+Payment Total: 6000.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Full Time
+First Name: Doron
+Last Name: Williams
+Social Security Number: 1222
+Hours Worked: 10.0
+Total Wage: 8000.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Contract
+First Name: Ken
+Last Name: Brown
+Social Security Number: 111222
+Part Number: 22233
+Part Description: Car paint 
+Quantity: 5
+Price Pattern: 1000.0
+Payment Total: 5000.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Full Time
+First Name: Kevin
+Last Name: Campbell
+Social Security Number: 1112233
+Hours Worked: 9.0
+Total Wage: 7200.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Contract
+First Name: Kemar
+Last Name: Bailey
+Social Security Number: 111222
+Part Number: 22233
+Part Description: Car Paint
+Quantity: 2
+Price Pattern: 5000.0
+Payment Total: 10000.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Contract
+First Name: Cam
+Last Name: Bogle
+Social Security Number: 12321
+Part Number: 2223
+Part Description: Something
+Quantity: 4
+Price Pattern: 2000.0
+Payment Total: 8000.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Full Time
+First Name: ddddddddddd
+Last Name: dddddddddd
+Social Security Number: aaaaaaaaaa
+Hours Worked: 3.0
+Total Wage: 2400.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Full Time
+First Name: ernie
+Last Name: h
+Social Security Number: w233
+Hours Worked: 3.0
+Total Wage: 2400.0

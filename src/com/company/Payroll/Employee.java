@@ -1,7 +1,6 @@
 package com.company.Payroll;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.BufferedWriter;
 import java.util.Scanner;
 import java.time.LocalDate;
 public class Employee extends Invoice implements Payable{
@@ -27,8 +26,7 @@ private String socialSecurityNumber;
         lastName = scan.nextLine();
         System.out.print("Enter Social Security Number: ");
         socialSecurityNumber = scan.nextLine();
-        FileWriter fWriter = null;
-        BufferedWriter writer = null;
+
         try {
             FileWriter myWriter = new FileWriter("PayStub.txt",true);
             myWriter.write("\n\n**********PAY STUB*************");

@@ -1,7 +1,6 @@
 package com.company.Payroll;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.BufferedWriter;
 import java.util.Scanner;
 public class HourlyEmployee extends Employee{
     private double wage;
@@ -18,12 +17,10 @@ public class HourlyEmployee extends Employee{
         hours = scan.nextDouble();
         wage = hours *800;
 
-        FileWriter fWriter = null;
-        BufferedWriter writer = null;
         try {
             FileWriter myWriter = new FileWriter("PayStub.txt", true);
-            myWriter.append("\nHours Worked: " + hours);
-            myWriter.append("\nTotal Wage: " + wage);
+            myWriter.append("\nHours Worked: ").append(String.valueOf(hours));
+            myWriter.append("\nTotal Wage: ").append(String.valueOf(wage));
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {

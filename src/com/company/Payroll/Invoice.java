@@ -1,7 +1,6 @@
 package com.company.Payroll;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.BufferedWriter;
 import java.time.LocalDate;
 import java.util.Scanner;
 public class Invoice implements Payable{
@@ -44,9 +43,8 @@ public class Invoice implements Payable{
 
     @Override
     public double getPaymentAmount() {
-        double total = quantity * pricePattern;
 
-        return total;
+        return quantity * pricePattern;
     }
 
 
@@ -70,8 +68,6 @@ public class Invoice implements Payable{
         System.out.print("Enter Price Pattern: ");
         pricePattern = scan.nextDouble();
 
-        FileWriter fWriter = null;
-        BufferedWriter writer = null;
         try {
             FileWriter myWriter = new FileWriter("PayStub.txt", true);
             myWriter.write("\n\n**********PAY STUB*************");
@@ -81,11 +77,11 @@ public class Invoice implements Payable{
             myWriter.write("\nFirst Name: "+fName);
             myWriter.write("\nLast Name: "+lName);
             myWriter.write("\nSocial Security Number: "+socialSecurityNumber);
-            myWriter.append("\nPart Number: " + partNumber);
-            myWriter.append("\nPart Description: " + partDescription);
-            myWriter.append("\nQuantity: " + quantity);
-            myWriter.append("\nPrice Pattern: " + pricePattern);
-            myWriter.append("\nPayment Total: " + getPaymentAmount());
+            myWriter.append("\nPart Number: ").append(partNumber);
+            myWriter.append("\nPart Description: ").append(partDescription);
+            myWriter.append("\nQuantity: ").append(String.valueOf(quantity));
+            myWriter.append("\nPrice Pattern: ").append(String.valueOf(pricePattern));
+            myWriter.append("\nPayment Total: ").append(String.valueOf(getPaymentAmount()));
 
             myWriter.close();
 

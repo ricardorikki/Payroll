@@ -20,19 +20,18 @@ public class Main {
         System.out.print("\tPlease Enter Worker Type: ");
         int workerType = scan.nextInt();
 
-        switch(workerType) {
-            case 1:
+        switch (workerType) {
+            case 1 -> {
                 employee.writeToFile();
                 hourlyEmployee.getPaymentAmount();
-                break;
-            case 2:
-                invoice.writeToFile();
-                break;
-            case 3:
+            }
+            case 2 -> invoice.writeToFile();
+            case 3 -> {
                 System.out.println("Program Terminated");
                 System.exit(0); // for terminating the program
-                break;
-            default:
+            }
+            default -> {
+            }
         }
         display.display();
     }
