@@ -2,7 +2,7 @@ package com.company.Payroll;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.BufferedWriter;
-
+import java.time.LocalDate;
 import java.util.Scanner;
 public class Invoice implements Payable{
 
@@ -18,22 +18,49 @@ public class Invoice implements Payable{
         this.quantity = quantity;
         this.pricePattern = pricePattern;
     }
+    String fName,lName,socialSecurityNumber;
+    static class Employee extends com.company.Payroll.Employee {
+    @Override
+    public String getFirstName() {
+         fName = getFirstName();
+        return super.getFirstName();
+    }
+    @Override
+        public String getLastName(){
+        lName = getLastName();
+        return getLastName();
+    }
 
+        @Override
+        public String getSocialSecurityNumber(){
+            String socialSecurityNumber = getSocialSecurityNumber();
+            return getSocialSecurityNumber();
+        }
+
+}
     public Invoice() {
 
     }
 
     @Override
     public double getPaymentAmount() {
+        double total = quantity * pricePattern;
 
-
-        return 0;
+        return total;
     }
 
+
+    public void Employee(){}
     @Override
     public void writeToFile() {
 
         Scanner scan = new Scanner(System.in);
+        System.out.print("\nEnter First Name: ");
+        fName = scan.nextLine();
+        System.out.print("Enter Last Name: ");
+        lName = scan.nextLine();
+        System.out.print("Enter Social Security Number: ");
+        socialSecurityNumber = scan.nextLine();
         System.out.print("Enter Part Number: ");
         partNumber = scan.nextLine();
         System.out.print("Enter Part Description: ");
@@ -43,23 +70,28 @@ public class Invoice implements Payable{
         System.out.print("Enter Price Pattern: ");
         pricePattern = scan.nextDouble();
 
-        // setPartDescription(scan.nextLine());
         FileWriter fWriter = null;
         BufferedWriter writer = null;
         try {
             FileWriter myWriter = new FileWriter("PayStub.txt", true);
+            myWriter.write("\n\n**********PAY STUB*************");
+            LocalDate myObj = LocalDate.now(); // Create a date object
+            myWriter.write("\nDate: "+myObj);
+            myWriter.write("\nEmployee Type: Contract");
+            myWriter.write("\nFirst Name: "+fName);
+            myWriter.write("\nLast Name: "+lName);
+            myWriter.write("\nSocial Security Number: "+socialSecurityNumber);
             myWriter.append("\nPart Number: " + partNumber);
             myWriter.append("\nPart Description: " + partDescription);
             myWriter.append("\nQuantity: " + quantity);
             myWriter.append("\nPrice Pattern: " + pricePattern);
+            myWriter.append("\nPayment Total: " + getPaymentAmount());
 
             myWriter.close();
 
         } catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
-
-
         }
     }
 

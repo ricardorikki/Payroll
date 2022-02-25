@@ -66,3 +66,99 @@ Quantity: 4
 Price Pattern: 2000.0
 Hours Worked: 10.0
 Total Wage: 8000.0
+
+**********PAY STUB*************
+Date: 2022-02-24
+First Name: fgfg
+Last Name: dfd
+Social Security Number: 232
+
+**********PAY STUB*************
+Date: 2022-02-24
+First Name: sdf
+Last Name: sdcsd
+Social Security Number: sddsd
+
+**********PAY STUB*************
+Date: 2022-02-24First Name: eded
+Last Name: dee
+Social Security Number: ede
+
+**********PAY STUB*************
+Date: 2022-02-24
+First Name: edef
+Last Name: frf
+Social Security Number: errre
+Hours Worked: 3.0
+Total Wage: 2400.0
+First Name: rikki
+Part Number: 34er
+Part Description: rferf
+Quantity: 4
+Price Pattern: 343.0
+Hours Worked: 3.0
+Total Wage: 2400.0
+
+**********PAY STUB*************
+First Name: wads
+Part Number: erf
+Part Description: Something
+Quantity: 5
+Price Pattern: 555.0
+Hours Worked: 5.0
+Total Wage: 4000.0
+
+**********PAY STUB*************
+Date: 2022-02-24
+Employee Type: Contract
+First Name: Ricardo
+Last Name: Knight
+Social Security Number: 118-314-670
+Part Number: 1499
+Part Description: Driver door glass
+Quantity: 1
+Price Pattern: 2000.0
+Hours Worked: 0.0
+Total Wage: 0.0
+
+**********PAY STUB*************
+Date: 2022-02-24
+Employee Type: Full Time
+First Name: Frank
+Last Name: Chambers
+Social Security Number: 232
+Hours Worked: 8.0
+Total Wage: 6400.0
+
+**********PAY STUB*************
+Date: 2022-02-24
+Employee Type: Full Time
+First Name: Trevor
+Last Name: Knight
+Social Security Number: 1211333
+Hours Worked: 10.0
+Total Wage: 8000.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Contract
+First Name: Narda
+Last Name: Knight
+Social Security Number: 33344
+Part Number: rfre
+Part Description: efre
+Quantity: 5
+Price Pattern: 100.0
+Payment Total: 0.0
+
+**********PAY STUB*************
+Date: 2022-02-25
+Employee Type: Contract
+First Name: Kerry
+Last Name: Knight
+Social Security Number: 4443
+Part Number: h3e
+Part Description: Something Special 
+Quantity: 5
+Price Pattern: 100.0
+Payment Total: 500.0

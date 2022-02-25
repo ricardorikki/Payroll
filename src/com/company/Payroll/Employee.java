@@ -4,15 +4,13 @@ import java.io.IOException;
 import java.io.BufferedWriter;
 import java.util.Scanner;
 import java.time.LocalDate;
-public class Employee<partDescription> extends Invoice implements Payable{
+public class Employee extends Invoice implements Payable{
 
 private String firstName;
 private String lastName;
 private String socialSecurityNumber;
 
-
-
-    public Employee(){};
+    public Employee(){}
 
     @Override
     public double getPaymentAmount() {
@@ -20,11 +18,10 @@ private String socialSecurityNumber;
         return 0;
     }
 
-
     @Override
     public void writeToFile() {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter First Name: ");
+        System.out.print("\nEnter First Name: ");
         firstName = scan.nextLine();
         System.out.print("Enter Last Name: ");
         lastName = scan.nextLine();
@@ -38,6 +35,7 @@ private String socialSecurityNumber;
             LocalDate myObj = LocalDate.now(); // Create a date object
 
             myWriter.write("\nDate: "+myObj);
+            myWriter.write("\nEmployee Type: Full Time");
             myWriter.write("\nFirst Name: "+firstName);
             myWriter.write("\nLast Name: "+lastName);
             myWriter.write("\nSocial Security Number: "+socialSecurityNumber);
@@ -47,11 +45,7 @@ private String socialSecurityNumber;
             System.out.println("An error occurred.");
             e.printStackTrace();
         }
-
-
     }
-
-
 
     public Employee(String firstName,String lastName, String socialSecurityNumber){
     this.firstName = firstName;

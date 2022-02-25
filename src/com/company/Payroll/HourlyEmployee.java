@@ -13,14 +13,6 @@ public class HourlyEmployee extends Employee{
     }
     @Override
     public double getPaymentAmount() {
-
-
-        return wage;
-    }
-
-    @Override
-    public void writeToFile() {
-
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter Hours Worked: ");
         hours = scan.nextDouble();
@@ -32,16 +24,19 @@ public class HourlyEmployee extends Employee{
             FileWriter myWriter = new FileWriter("PayStub.txt", true);
             myWriter.append("\nHours Worked: " + hours);
             myWriter.append("\nTotal Wage: " + wage);
-
-
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();
-
-
         }
+        return wage;
+    }
+
+    @Override
+    public void writeToFile() {
+
+
     }
 
 
